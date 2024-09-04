@@ -1,0 +1,582 @@
+/* All Of Website */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+/* ------------------------------------------------------------------------------------------------------------------------------------------- */
+/* ------------------------------------------------------------------------------------------------------------------------------------------- */
+body {
+    background-color: #fff;
+    color: #000;
+    font-family: Arvo, sans-serif;
+    line-height: 26px;
+}
+
+.caps {
+    font-family: Montserrat, sans-serif;
+    color: #9fa3a7;
+    font-size: 12px;
+    line-height: 20px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+
+h1 {
+    font-size: 48px;
+    line-height: 60px;
+    font-weight: 400;
+    margin: 10px 0;
+}
+
+h3 {
+    margin-top: 10px;
+    margin-bottom: 20px;
+    font-family: Arvo, sans-serif;
+    font-size: 24px;
+    line-height: 32px;
+    font-weight: 400;
+}
+
+a {
+    color: #27b9c2;
+    text-decoration: underline;
+    background-color: transparent;
+}
+
+img {
+    max-width: 100%;
+    vertical-align: middle;
+    display: inline-block;
+}
+/*= All Of Website =*/
+/* =========================================================================================================================================== */
+/* =========================================================================================================================================== */
+/* Container */
+.container {
+    display: grid;
+    align-content: start;
+    grid-template-columns: auto auto auto auto;
+    grid-template-rows: auto auto auto auto auto auto auto;
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+}
+/*= Container =*/
+
+/* ------------------------------------------------------------------------------------------------------------------------------------------- */
+/* ------------------------------------------------------------------------------------------------------------------------------------------- */
+
+/* Iphone Section */
+.container .iphoneSec {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-column: 1/3;
+    grid-row: 1/3;
+}
+
+.container .iphoneSec .articles {
+    display: grid;
+    grid-column: 1/2;
+    align-items: center;
+    justify-items: center;
+}
+
+.container .iphoneSec .articles .cont {
+    width: 43%;
+    align-items: center;
+    justify-items: center;
+}
+
+.container .iphoneSec .articles .grey-text {
+    color: #9fa3a7;
+}
+
+.container .iphoneSec .img  {
+    display: grid;
+    grid-column: 2/3;
+    margin: 40px 80px 0 0;
+    display: flex;
+    justify-content: start;
+    /* justify-items: start; */
+}
+
+/*= Iphone Section =*/
+
+/* ------------------------------------------------------------------------------------------------------------------------------------------- */
+/* ------------------------------------------------------------------------------------------------------------------------------------------- */
+
+/* Article */
+.article {
+    background-color: #f7f8f9;
+    display: grid;
+    grid-column: 3/-1;
+    grid-row: 1/3;
+    justify-items: center;
+    align-items: center;
+    text-align: center;
+    margin: 0;
+}
+
+.article h1 {
+    font-size: 45px;
+}
+.article .cont {
+    width: 60%;
+}
+/*= Article =*/
+
+/* ------------------------------------------------------------------------------------------------------------------------------------------- */
+/* ------------------------------------------------------------------------------------------------------------------------------------------- */
+
+/* Keyboard */
+.keyboard {
+    display: grid;
+    grid-column: 1/2;
+    grid-row: 3/4;
+    padding: 40px 0;
+    background-color: #f05638;
+    text-align: center;
+}
+
+.keyboard .cont {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.keyboard .cont img {
+    max-width: 100%;
+    vertical-align: middle;
+    display: inline-block;
+}
+
+.keyboard .cont h3 {
+    display: block;
+    max-width: 230px;
+    margin-bottom: 0px;
+    color: #fff;
+}
+
+.keyboard .cont a {
+    color: #ffc80a;
+    display: inline-block;
+    margin-top: 20px;
+    font-size: 12px;
+    font-weight: 700;
+    letter-spacing: 2.4px;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+/*= Keyboard =*/
+
+/* ------------------------------------------------------------------------------------------------------------------------------------------- */
+/* ------------------------------------------------------------------------------------------------------------------------------------------- */
+
+/* Computer */
+.computer {
+    display: grid;
+    grid-column: 2/4;
+    grid-row: 3/4;
+}
+
+.computer .cont {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.computer .cont .div-block1 {
+    display: flex;
+    justify-content: end;
+    flex-direction: column;
+    height: 100%;
+    width: 28%;
+}
+
+.computer .cont .div-block1 img {
+    width: 10vw;
+    max-width: none;
+    margin-top: 20px;
+}
+.computer .cont .div-block1 h3 {
+    margin-bottom: 0;
+}
+
+.computer .cont .div-block2 {
+    width: 40%;
+}
+
+.computer .cont .div-block2 a {
+    display: inline-block;
+    margin-top: 20px;
+    font-size: 12px;
+    font-weight: 700;
+    letter-spacing: 2.4px;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+/*= Computer =*/
+
+/* ------------------------------------------------------------------------------------------------------------------------------------------- */
+/* ------------------------------------------------------------------------------------------------------------------------------------------- */
+
+/* Disk */
+.disk {
+    display: grid;
+    grid-column: 4/-1;
+    grid-row: 3/5;
+    justify-items: center;
+    align-items: center;
+    background-color: #8f76bc;
+}
+
+.disk .circle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 373px;
+    height: 373px;
+    border-radius: 50%;
+    background-color: #8166b0;
+}
+
+.disk .circle .popular {
+    padding: 2px 13px 1px 30px;
+    margin: -15px 0 15px;
+    border-radius: 60px;
+    background-color: hsla(0, 0%, 100%, .08);
+    background-image: url(https://uploads-ssl.webflow.com/5bc242f…/5bc2f42…_Shape.png);
+    background-position: 11px 50%;
+    background-size: 12px;
+    background-repeat: no-repeat;
+    font-size: 10px;
+    line-height: 23px;
+    font-weight: 700;
+    letter-spacing: 2.4px;
+    color: #fff;
+}
+
+.disk .circle img {
+    margin: 10px 0;
+}
+
+.disk .circle div {
+    color: #fff;
+}
+
+.disk .conti {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+    height: 100%;
+}
+.disk h2 {
+    font-size: 32px;
+    line-height: 36px;
+    margin-top: 20px;
+    color: #fff;
+}
+
+.disk .prag {
+    margin: 10px;
+    color: #fff;
+    width: 70%;
+    max-width: 290px;
+    text-align: center;
+}
+ 
+.disk a {
+    margin-top: 30px;
+    padding: 14px 28px;
+    border-radius: 50px;
+    background-color: #ffc80a;
+    color: #000;
+    font-size: 12px;
+    font-weight: 700;
+    letter-spacing: 2.4px;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+/*= Disk =*/
+
+/* ------------------------------------------------------------------------------------------------------------------------------------------- */
+/* ------------------------------------------------------------------------------------------------------------------------------------------- */
+
+/* Labtop */
+.labtop {
+    display: grid;
+    grid-column: 2/4;
+    grid-row: 4/5;
+    justify-items: center;
+    align-items: center;
+    background-color: #93b6b7;
+    position: relative;
+}
+
+.labtop .cont {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.labtop .cont .minicaps {
+    position: absolute;
+    left: 30px;
+    top: 20px;
+    padding-right: 10px;
+    padding-left: 10px;
+    border-radius: 5px;
+    background-color: #fa684f;
+    font-size: 8px;
+    line-height: 20px;
+    font-weight: 700;
+    letter-spacing: 2px;
+}
+
+.labtop .cont h3 {
+    display: block;
+    max-width: 280px;
+    margin: auto;
+    padding-top: 31px;
+    padding-bottom: 31px;
+    text-align: center;
+    color: #fff;
+}
+
+.labtop .cont img {
+    height:  30vh !important;
+}
+
+/*= Labtop =*/
+
+/* ------------------------------------------------------------------------------------------------------------------------------------------- */
+/* ------------------------------------------------------------------------------------------------------------------------------------------- */
+
+/* Game */
+.game {
+    display: grid;
+    grid-column: 1/2;
+    grid-row: 4/5;
+    justify-items: center;
+    align-items: center;
+    position: relative;
+}
+
+.game .cont {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 40px 0;
+}
+
+.game .cont h3 {
+    width: 54%;
+    text-align: center;
+}
+/*= Game =*/
+
+/* ------------------------------------------------------------------------------------------------------------------------------------------- */
+/* ------------------------------------------------------------------------------------------------------------------------------------------- */
+
+/* Twiter */
+.twiter {
+    display: grid;
+    grid-column: 1/2;
+    grid-row: 5/6;
+    justify-items: center;
+    align-items: center;
+    background-color: #35cfed;
+    position: relative;
+}
+
+.twiter .cont {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.twiter .cont h3 {
+    text-align: center;
+    width: 50%;
+    color: #fff;
+}
+/*= Twiter =*/
+
+/* ------------------------------------------------------------------------------------------------------------------------------------------- */
+/* ------------------------------------------------------------------------------------------------------------------------------------------- */
+
+/* Popular */
+.popular {
+    display: grid;
+    grid-column: 2/3;
+    grid-row: 5/6;
+    justify-items: center;
+    align-items: center;
+    background-color: #fff;
+    position: relative;
+}
+
+.popular .cont {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.popular .cont div {
+    position: static;
+    padding: 0 10px;
+    font-size: 12px;
+    line-height: 20px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    margin-bottom: 5px;
+    background-color: #7bc424;
+    color: #fff;
+}
+
+.popular .cont h3 {
+    width: 70%;
+    text-align: center;
+}
+/*= Popular =*/
+
+/* ------------------------------------------------------------------------------------------------------------------------------------------- */
+/* ------------------------------------------------------------------------------------------------------------------------------------------- */
+
+/* Screen */
+.screen {
+    display: grid;
+    grid-column: 3/-1;
+    grid-row: 5/6;
+    justify-items: center;
+    align-items: center;
+    background-color: #2c2c2c;
+    position: relative;
+}
+
+.screen .cont {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.screen .cont h3 {
+    width: 35%;
+}
+/*= Screen =*/
+
+/* /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
+/* /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
+/* /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
+/*  */
+@media (max-width: 650px) {
+    .container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .container .article {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        margin-bottom: 20px;
+        text-align: center;
+    }
+
+    .container .iphoneSec {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .container .keyboard {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        margin-bottom: 20px;
+        text-align: center;
+    }
+
+    .game {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        margin-bottom: 20px;
+        text-align: center;
+    }
+
+    .computer .computer {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        margin-bottom: 20px;
+        text-align: center;
+    }
+
+    .container .computer .cont {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        flex-direction: column;
+    }
+
+    .container .twiter {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .container .labtop {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .computer .disk {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .container .popular {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        margin-bottom: 20px;
+        text-align: center;
+    }
+
+    .container .screen {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        margin-bottom: 20px;
+        text-align: center;
+    }
+}
